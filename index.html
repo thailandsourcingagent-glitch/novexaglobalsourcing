@@ -1,35 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Novexa Global Sourcing</title>
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f7fb;color:#222}
-header{background:linear-gradient(135deg,#0b2341,#163f74);color:#fff;padding:80px 20px;text-align:center}
-.logo{font-size:58px;font-weight:800;letter-spacing:2px}
-.gold{color:#d4a63a}
-.container{max-width:1200px;margin:auto;padding:60px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:#fff;border-radius:14px;padding:25px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.hero{font-size:20px;margin:15px 0}
-.btn{display:inline-block;background:#d4a63a;color:white;padding:14px 22px;border-radius:8px;text-decoration:none}
-.section-title{text-align:center;color:#0b2341;margin-bottom:25px}
-.banner{background:#fff;padding:40px;border-radius:14px;box-shadow:0 2px 12px rgba(0,0,0,.08);text-align:center}
-.contact{background:#0b2341;color:white;border-radius:14px;padding:35px}
-footer{background:#08172b;color:white;text-align:center;padding:20px}
+body{
+margin:0;
+font-family:'Inter',Segoe UI,Arial,sans-serif;
+background:#f4f7fb;
+color:#222;
+}
+
+header{
+background:linear-gradient(135deg,#0b2341,#163f74);
+color:#fff;
+padding:60px 20px;
+text-align:center;
+}
+
+.logo-img{
+width:180px;
+margin-bottom:10px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#fff;
+border-radius:14px;
+padding:25px;
+box-shadow:0 2px 12px rgba(0,0,0,.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.hero{
+font-size:20px;
+margin:15px 0;
+}
+
+.btn{
+display:inline-block;
+background:#d4a63a;
+color:white;
+padding:14px 22px;
+border-radius:8px;
+text-decoration:none;
+}
+
+.section-title{
+text-align:center;
+color:#0b2341;
+margin-bottom:25px;
+}
+
+.banner{
+background:#fff;
+padding:40px;
+border-radius:14px;
+box-shadow:0 2px 12px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.contact{
+background:#0b2341;
+color:white;
+border-radius:14px;
+padding:35px;
+text-align:center;
+}
+
+.contact a{
+color:#fff;
+text-decoration:underline;
+}
+
+footer{
+background:#08172b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 16px;
+border-radius:50px;
+text-decoration:none;
+font-size:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
 </style>
+
 </head>
+
 <body>
 
 <header>
-<div class="logo">NOVE<span class="gold">XA</span></div>
+
+<img src="logo.png" class="logo-img" alt="Logo">
+
 <h1>Global Sourcing</h1>
+
 <div class="hero">🇨🇳 China & Thailand 🇹🇭 Sourcing Specialists</div>
+
 <div>🏭 Factory Inspection | ✅ QC | 📦 Product Sourcing | 🚢 Shipping & Logistics</div>
+
 <br>
+
 <a class="btn" href="mailto:info@novexaglobalsourcing.com">Request a Quote</a>
+
 </header>
 
 <div class="container">
@@ -41,18 +144,22 @@ footer{background:#08172b;color:white;text-align:center;padding:20px}
 
 <h2 class="section-title">Our Services</h2>
 <div class="grid">
-<div class="card"><h3>🔍 Product Sourcing</h3><p>Reliable suppliers and manufacturers.</p></div>
-<div class="card"><h3>🏭 Factory Inspection</h3><p>On-site factory audits and verification.</p></div>
-<div class="card"><h3>✅ Quality Control (QC)</h3><p>Pre-shipment and production inspections.</p></div>
-<div class="card"><h3>📦 Supplier Verification</h3><p>Avoid scams and unreliable vendors.</p></div>
-<div class="card"><h3>🚢 Shipping & Logistics</h3><p>Sea, Air and Express shipping support.</p></div>
-<div class="card"><h3>🌍 Global Procurement</h3><p>Complete sourcing solutions.</p></div>
+<div class="card">🔍 Product Sourcing</div>
+<div class="card">🏭 Factory Inspection</div>
+<div class="card">✅ Quality Control (QC)</div>
+<div class="card">📦 Supplier Verification</div>
+<div class="card">🚢 Shipping & Logistics</div>
+<div class="card">🌍 Global Procurement</div>
 </div>
 
 <h2 class="section-title">Industries</h2>
 <div class="grid">
 <div class="card">📱 Electronics</div>
 <div class="card">🧸 Toys</div>
+<div class="card">👕 Garments & Apparel</div>
+<div class="card">💄 Cosmetics & Beauty</div>
+<div class="card">🍔 Food & Beverages</div>
+<div class="card">🌿 Herbal Products</div>
 <div class="card">🏠 Home & Kitchen</div>
 <div class="card">⚙ Industrial Products</div>
 <div class="card">📦 Packaging</div>
@@ -68,11 +175,19 @@ footer{background:#08172b;color:white;text-align:center;padding:20px}
 </div>
 
 <div class="contact">
+
 <h2>Contact Us</h2>
-<p>📧 info@novexaglobalsourcing.com</p>
-<p>📱 WhatsApp: +66 615608093</p>
+
 <p>📍 Bangkok, Thailand</p>
+
+<p>📧 <a href="mailto:info@novexaglobalsourcing.com">Email Us</a></p>
+
+<p>📱 <a href="https://wa.me/66615608093" target="_blank">WhatsApp Chat</a></p>
+
+<p>🔗 <a href="https://www.linkedin.com/in/syed-wahaj-833a12413" target="_blank">LinkedIn Profile</a></p>
+
 <p><strong>Source • Inspect • Ship • Succeed</strong></p>
+
 </div>
 
 </div>
@@ -80,6 +195,9 @@ footer{background:#08172b;color:white;text-align:center;padding:20px}
 <footer>
 © Novexa Global Sourcing | China & Thailand Sourcing Specialists
 </footer>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp" href="https://wa.me/66615608093" target="_blank">💬</a>
 
 </body>
 </html>
